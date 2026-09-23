@@ -1,13 +1,13 @@
-name: Deploy CI site to GitHub Pages
+name: Deploy microsite to GitHub Pages
 
 on:
   push:
-    branches: [microsite-only]
+    branches:
+      - microsite-only
     paths:
-      - ".docs/knowledge-base/knowledge-checks/**"
       - ".docs/microsite/**"
-      - "media/ci-practitioner/**"
       - ".github/workflows/deploy-pages.yml"
+  workflow_dispatch:
 
 permissions:
   contents: read
@@ -19,7 +19,7 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  build-deploy:
+  validate-and-deploy:
     runs-on: ubuntu-latest
     environment:
       name: github-pages
@@ -33,29 +33,17 @@ jobs:
         with:
           node-version: 20
 
-      - name: Validate site contracts
+      - name: Validate microsite
         run: npm run check
 
-      - name: Configure Pages
+      - name: Configure GitHub Pages
         uses: actions/configure-pages@v5
 
-      - name: Assemble site
-        run: |
-          mkdir -p _site
-          # Knowledge checks stay at the site root so existing links keep working
-          cp -R .docs/knowledge-base/knowledge-checks/. _site/
-          # Microsite is published under /microsite/
-          mkdir -p _site/microsite
-          cp -R .docs/microsite/. _site/microsite/
-          # Optional module audio is kept outside the content packages
-          mkdir -p _site/microsite/media/ci-practitioner
-          cp -R media/ci-practitioner/. _site/microsite/media/ci-practitioner/
-
-      - name: Upload site artifact
+      - name: Upload microsite
         uses: actions/upload-pages-artifact@v3
         with:
-          path: _site
+          path: .docs/microsite
 
-      - name: Deploy to GitHub Pages
+      - name: Deploy microsite
         id: deployment
         uses: actions/deploy-pages@v4
