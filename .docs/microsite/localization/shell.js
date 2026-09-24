@@ -92,7 +92,7 @@
 
       /* index hero */
       "index.title": "Smart CI \u2014 30-Minute Delivery Series",
-      "hero.eyebrow": "CI \u00b7 Customer Success Unit",
+      "hero.eyebrow": "CI \u00b7 in \u00b7 30",
       "hero.title": "Continuous Improvement \u2014 30-Minute Delivery Series",
       "hero.lede": "Every Lean Six Sigma topic in the Smart CI library, repackaged into bite-sized 30-minute sessions. Choose your role and pick a path &mdash; a <strong>guided progression</strong> from the most basic concepts to the most advanced, <strong>browse by concept</strong> and category, or <strong>follow a belt</strong> to filter the library to the learning plan for the Lean Six Sigma belt you&rsquo;re pursuing. Each module opens with an executive summary, states what you&rsquo;ll gain in plain language, explains the concept, shows role-based examples for CSAMs and CSAs, recaps the key takeaways, and closes with a Microsoft certification&ndash;style knowledge check.",
       "hero.stat.modules": "30-min modules",
@@ -449,7 +449,7 @@
 
       /* index hero */
       "index.title": "Smart CI \u2014 S\u00e9rie de Entregas de 30 Minutos",
-      "hero.eyebrow": "CI \u00b7 Customer Success Unit",
+      "hero.eyebrow": "CI \u00b7 in \u00b7 30",
       "hero.title": "Melhoria Cont\u00ednua \u2014 S\u00e9rie de Entregas de 30 Minutos",
       "hero.lede": "Todos os t\u00f3picos de Lean Six Sigma da biblioteca Smart CI, reempacotados em sess\u00f5es objetivas de 30 minutos. Escolha sua fun\u00e7\u00e3o e um caminho &mdash; uma <strong>progress\u00e3o guiada</strong> dos conceitos mais b\u00e1sicos aos mais avan\u00e7ados, <strong>navegue por conceito</strong> e categoria, ou <strong>siga uma faixa</strong> para filtrar a biblioteca pelo plano de aprendizado da faixa de Lean Six Sigma que voc\u00ea busca. Cada m\u00f3dulo abre com um resumo executivo, descreve o que voc\u00ea vai ganhar em linguagem simples, explica o conceito, mostra exemplos por fun\u00e7\u00e3o para CSAMs e CSAs, recapitula os pontos-chave e encerra com uma verifica\u00e7\u00e3o de conhecimento no estilo das certifica\u00e7\u00f5es da Microsoft.",
       "hero.stat.modules": "m\u00f3dulos de 30 min",
@@ -806,7 +806,7 @@
 
       /* index hero */
       "index.title": "Smart CI \u2014 Serie de Entregas de 30 Minutos",
-      "hero.eyebrow": "CI \u00b7 Customer Success Unit",
+      "hero.eyebrow": "CI \u00b7 in \u00b7 30",
       "hero.title": "Mejora Continua \u2014 Serie de Entregas de 30 Minutos",
       "hero.lede": "Todos los temas de Lean Six Sigma de la biblioteca Smart CI, reempaquetados en sesiones concisas de 30 minutos. Elige tu rol y selecciona un camino &mdash; una <strong>progresi\u00f3n guiada</strong> desde los conceptos m\u00e1s b\u00e1sicos hasta los m\u00e1s avanzados, <strong>navega por concepto</strong> y categor\u00eda, o <strong>sigue un cintur\u00f3n</strong> para filtrar la biblioteca seg\u00fan el plan de aprendizaje del cintur\u00f3n de Lean Six Sigma que persigues. Cada m\u00f3dulo abre con un resumen ejecutivo, describe lo que obtendr\u00e1s en lenguaje sencillo, explica el concepto, muestra ejemplos por rol para CSAM y CSA, recapitula los puntos clave y cierra con una verificaci\u00f3n de conocimiento al estilo de las certificaciones de Microsoft.",
       "hero.stat.modules": "m\u00f3dulos de 30 min",
